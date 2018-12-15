@@ -280,7 +280,7 @@ fieldset p{
     font-size:25px;
 }
 .twitter{
-    background-color: #808080;
+    background-color: #C0C0C0;
     color: white;
     text-align: center;
     margin-left: auto;
@@ -288,4 +288,20 @@ fieldset p{
     padding: 1%;
     font-size:20px;
     /* position: absolute; */
+}
+footer{
+    background-color: #696969;
+    padding: 1%;
+    text-align: center;
+    color: white;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+/* Clear floats after the columns */
+footer:after {
+  content: "";
+  display: table;
+  clear: both;
 }
